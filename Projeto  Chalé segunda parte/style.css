@@ -44,12 +44,14 @@ header{
     
 }
 
-.info1{
-    width: auto;
-    height: 250px;
-    background-color: aliceblue;
-    margin: 5px;
-
+.topo-hr{
+    margin: 0 auto;
+    width: 300px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    background-color: red;
+    margin-top: 5px;
+    
 }
 
 
@@ -61,6 +63,18 @@ header{
 
 
 
+
+
+
+
+
+.info1{
+    width: auto;
+    height: 250px;
+    background-color: aliceblue;
+    margin: 5px;
+
+}
 
 
 nav{
