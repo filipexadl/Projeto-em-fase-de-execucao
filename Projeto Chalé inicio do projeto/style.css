@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: Helvetica, Arial, sans-serif;
+   background-image: url(imagens/bg.png);
+   margin: 15px;
+}
+
+header{
+    
+    height: 250px;
+   
+    margin: 0 auto;
+    max-width: 1250px;
+    min-width: 660px;
+}
+
+#fundo-topo{
+    width: 100%;
+    height: 300px;
+    background-image: url(imagens/topo-imagem-principal2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+#logo{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    z-index: 0;
+}
+
+#menu-topo{
+    width: 520px;
+    height: 250px;
+    background-image: url(imagens/topo-imagem-lateral.png);
+    position: relative;
+    float: right;
+    z-index: 1;
+    
+}
+
+.info1{
+    width: auto;
+    height: 250px;
+    background-color: aliceblue;
+    margin: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    margin: 0 auto;
+    max-width: 1350px;
+    min-width: 660px;
+    max-width: 1250px;
+    margin-top: 5px;
+    
+}
+
+#conteudo-meio{
+    
+    height: 900px;
+    
+    max-width: 1450px;
+    min-width: 600px;
+}
+
+.containner1{
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    background-color: white;
+
+}
+
+.conteinner1-conteudo{
+    background-color: rgba(243, 200, 108, 0.719);
+    max-width: 600px;
+    min-width: 350px;
+    height: 900px;
+   
+   
+}
+
+.conteinner1-conteudo h1{
+   padding: 20px 0px 10px 10px;
+
+}
+
+.conteinner1-conteudo p{
+    padding: 10px;
+    color: black;
+}
+
+#conteinnerlateral{
+    float: right;
+    left: 700px;
+    height: 900px;
+    max-width: 460px;
+    min-width: 55%;
+    background-color: rgba(104, 104, 104, 0.637);
+
+}
+
+#and{
+    width: 150px;
+    height: 150px;
+    clear: both;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .containner1 {
+      background-color: red;
+      display: flex;
+      width: 460px;
+      margin-right: 10px;
+      
+    }
+    #conteinnerlateral{
+        float: left;
+        width: 600px;
+    }
+  }
