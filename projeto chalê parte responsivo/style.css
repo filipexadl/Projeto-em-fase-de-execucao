@@ -251,3 +251,29 @@ nav {
 
 }
 
+
+
+
+
+#roda-pe{
+    width: auto;
+    height: 15px;
+    background-color: #dad07d;
+}
+
+#roda-pe a{
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#roda-pe a:hover{
+    color: #faf4d6;
+    background-color: #6e672c;
+}
+
+
+
+
