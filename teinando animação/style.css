@@ -72,10 +72,12 @@ animation-fill-mode: forwards;
 
 #conteudo{
     background-color: #dcdcdc;
-    height: 400px;
+    height: 700px;
+    width: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .itens{
@@ -84,5 +86,6 @@ animation-fill-mode: forwards;
     margin: 10px;
     width: 450px;
     height: 100px;
+    margin: 0 auto;
     
 }
