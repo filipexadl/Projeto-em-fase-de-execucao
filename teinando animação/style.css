@@ -70,3 +70,19 @@ animation-fill-mode: forwards;
 
 
 
+#conteudo{
+    background-color: #dcdcdc;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.itens{
+    background: white;
+    border: 1px solid red;
+    margin: 10px;
+    width: 450px;
+    height: 100px;
+    
+}
