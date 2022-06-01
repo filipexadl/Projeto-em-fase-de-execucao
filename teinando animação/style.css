@@ -179,5 +179,9 @@ animation-fill-mode: forwards;
 }
 
 .flex_grow{
-    flex-grow: 1;
+    flex-grow: 3;
+}
+
+.flex_basic{
+    flex-basis: 500px;
 }
