@@ -119,3 +119,40 @@ animation-fill-mode: forwards;
 .ordem4{
     order: 4;
 }
+
+#conteudo3{
+    background-color: grey;
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.itens2{
+  
+   margin: 10px; 
+   border: 1px solid red;
+
+}
+
+.itens3{
+    max-width: 600px;
+    min-width: 500px;
+    margin: 10px; 
+    border: 1px solid red;
+ 
+ }
+
+.flex1{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+
+.flex2{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    
+}
+
