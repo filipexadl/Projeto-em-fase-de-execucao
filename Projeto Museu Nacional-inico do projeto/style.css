@@ -48,6 +48,7 @@ header .logo a{
 
 .menu ul li a{
     flex-direction: row;
+    margin-left: 10px;
 }
 
 
