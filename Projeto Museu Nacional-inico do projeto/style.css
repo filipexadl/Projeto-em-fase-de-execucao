@@ -43,11 +43,10 @@ header{
 
 #menu ul li a{ 
    padding: 8px;
+   background-color: #8b2626;
+   margin: 2px;
+   font-size: 1.2rem;
 }
-
-
-
-
 
 
 
@@ -83,6 +82,28 @@ nav section:nth-child(2){
    width: 40%;
 }
 
+@media only screen and (max-width: 750px) {
+    #menu {
+      position: relative;
+      top: 40px;
+      right: 270px; 
+    }
+    ul{
+       
+    }
+    li a{
+    
+       float: right;
+    }
+    nav{
+        margin-top: 40px;
+    }
+  }
+
+
+
+
+
 @media only screen and (max-width: 670px) {
     nav section:nth-child(1),nav section:nth-child(2){
         background-color: red;
@@ -91,6 +112,7 @@ nav section:nth-child(2){
     nav{
         height: 1000px;
         flex-direction: column;
+        margin-top: 40px;
     }
   }
 
