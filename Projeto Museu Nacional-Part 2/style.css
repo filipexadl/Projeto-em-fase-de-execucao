@@ -56,11 +56,10 @@ header .logo a {
 
 #containner_meio1{
     height: auto;
-    max-width: 1100px;
+    width: 1100px;
     margin: 0 auto;
     margin-top: -80px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     
     
@@ -69,37 +68,47 @@ header .logo a {
 #containner_meio1 section:nth-child(1) {
     margin: 5px;
     margin: 0 auto;
-    
 }
 
 #containner_meio1 section:nth-child(2) {
     margin: 5px;  
     margin: 0 auto;
-  
-   
 }
+
+
+
+
+
 
 #containner_meio2{
-    height: auto;
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 1100px;
+    height: 380px;
+    border: 1px solid red;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    
+    
+  
+    
 
-#containner_meio2 section:nth-child(1) {
-    margin: 5px;
-    margin: 0 auto;
     
 }
 
+#containner_meio2 section:nth-child(1) {
+
+    
+
+}
+
 #containner_meio2 section:nth-child(2) {
-    margin: 5px;  
-    margin: 0 auto;
+   
+    
+}
+
+#containner_meio2 section:nth-child(3) {
   
    
 }
+
 
 
 
