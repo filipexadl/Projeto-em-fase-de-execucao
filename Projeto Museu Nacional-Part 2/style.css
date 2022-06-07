@@ -18,7 +18,7 @@ body {
 
 
 header {
-    width: 900px;
+    width: 1080px;
     height: 80px;
     background-image: url(img/fundo.png);
     margin: 0 auto;
@@ -54,105 +54,78 @@ header .logo a {
     color: white;
 }
 
-#containner_meio1 {
-    height: auto;
-    width: 1100px;
-    margin: 0 auto;
-    margin-top: -80px;
+#conteudo_principal{
+    width: 100%;
+    height: 1000px;
+  
     display: flex;
-    flex-wrap: wrap;
-
-
-}
-
-#containner_meio1 section:nth-child(1) {
-    margin: 0 auto;
-}
-
-#containner_meio1 section:nth-child(2) {
-    margin-left: 2px;
-    margin: 0 auto;
-}
-
-
-
-
-
-
-#containner_meio2 {
-width: 1090px;
-height: 580px;
-border: 1px solid rgb(0, 255, 13);
-display: flex;
-align-items: center;
-
-
-
-
-
-
-}
-
-#containner_meio2 section:nth-child(1) {
-    border: 1px solid rgb(5, 5, 5);
-    width: 370px;
-    height: 550px;
-   
+    justify-content: center;
+    
     
 }
 
-#containner_meio2 section:nth-child(2) {
-    border: 1px solid rgb(5, 5, 5);
-    width: 370px;
-    height: 550px;
+
+#conteudo{
+    width: 710px;
+    height: 300px;
+    background-color: aqua;
+    margin-top: -80px;
+    
+    
    
 }
 
-#containner_meio2 section:nth-child(3) {
-    border: 1px solid rgb(8, 8, 8);
-    height: 550px;
-    width: 360px;
+aside{
+    width: 350px;
+    height: 680px;
+    background-color: red;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+.formulario{
+    width: auto;
+    height: 150px;
+    background-color: #ffab4be8;
+
+}
+
+.infomuseu{
+    width: auto;
+    height: 150px;
+    display: flex;
+    
+}
+
+
+
+.containner1{
    
+    width: 352px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe{
    
 
 }
+.containner2{
+    
+    width: 353px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.localização{
+    width: auto;
+    height: 190px;
+    background-color: rgb(198, 255, 255);
+}
+
 
 h1{
-    color: rgb(14, 236, 81);
-   font-weight: 900;
-   text-align: center;
-   margin: 10px;
-
-   
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
-
-.logar{
-    width: auto;
-    height: 50%;
-    border: 1px solid blue;
-}
-
-
-.email{
-    width: auto;
-    height: 50%;
-    border: 1px solid blue;
-}
-
-
-
-.vídeo{
-    width: auto;
-    height:450px;
-    margin: 0 auto;
-}
-
-footer{
-    height: 100px;
-    width: 1090px;
-    margin: 0 auto;
-    background-color: rgb(0, 255, 13);
-
-}
-
-
