@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+   
+}
+
+/*início menu*/
+
+#containner_topo {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/fundo.png);
+}
+
+
+header {
+    width: 1080px;
+    height: 80px;
+    background-image: url(img/fundo.png);
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo a {
+    display: block;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 30px;
+    text-indent: -9999px;
+
+
+}
+
+
+.menu {}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    margin-left: 10px;
+    color: white;
+}
+
+/*Fim menu*/
+
+
+
+/*início Area leteral */
+aside{
+    width: 350px;
+    height: 680px;
+    
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+fieldset legend{
+   padding: auto;
+}
+
+.formulario{
+    width: auto;
+    height: 140px;
+    background-color: #ffab4bb4;
+
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    border-radius: none;
+    margin: 0 auto;
+    display: flex;
+    
+   
+}
+
+#submit{
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+
+.fieldset{
+    
+}
+
+#areafotos{
+    width: 350px;
+    height: 320px;
+    background-color: #EDE5DF;
+    
+}
+
+div #areafotos > section{
+  
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.imgconf{
+     position: relative;
+     left: 30px;
+     top: 7px;
+
+}
+
+
+
+.fotos{
+    width: 155px;
+    height: 105px;
+
+    margin: 10px;
+    background-image: url(img/fundo-foto.png);
+    background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 75%;
+    
+    
+  
+    
+
+}
+/*Fim Conteudo lateral */
+/*início Area principal centro */
+
+#conteudo_principal{
+    width: 100%;
+    height: 800px;
+  
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+#conteudo{
+    width: 710px;
+    height: 300px;
+    background-color: aqua;
+    margin-top: -80px;
+    
+    
+   
+}
+.infomuseu{
+   
+    display: flex;
+  
+    
+}
+
+
+
+.containner1{
+   
+    width: auto;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containner1_part2 section ul{
+    margin-left: 45px;
+}
+
+.containner1_part2{
+ width: 350px;
+
+ 
+}
+
+iframe{
+  
+
+}
+.containner2{
+    
+    width: auto;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.localização{
+    width: auto;
+    height: 174px;
+    background-color: rgb(198, 255, 255);
+}
+
+
+h1{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h2{
+    margin: 25px 0px 5px 0px;
+}
+
+a{
+    color: #D5AC7D;
+}
+
+.id1{
+    margin-top: 10px;
+}
+
+/*Fim conteudo centro */
+
+
+/* início roda pé */
+footer{
+width: auto;
+height: 15px;
+background-color: rgba(255, 0, 0, 0.26);
+}
+
+/*fim roda pé */
