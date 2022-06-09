@@ -1,17 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-   
-}
+body {}
 
 /*início menu*/
 
 #containner_topo {
-    background-color: black;
+    
     width: 100%;
     height: 200px;
     background-image: url(img/fundo.png);
@@ -47,13 +45,18 @@ header .logo a {
     display: flex;
     list-style: none;
 
+
 }
 
 .menu ul li {}
 
 .menu ul li a {
-    margin-left: 10px;
-    color: white;
+    margin-left: 15px;
+    color: #bd7e31;
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 /*Fim menu*/
@@ -61,167 +64,209 @@ header .logo a {
 
 
 /*início Area leteral */
-aside{
+aside {
     width: 350px;
     height: 680px;
-    
     margin-top: -80px;
     margin-left: 10px;
+
 }
 
-fieldset legend{
-   padding: auto;
-}
+fieldset legend {}
 
-.formulario{
+.formulario {
     width: auto;
-    height: 140px;
-    background-color: #ffab4bb4;
+    height: 185px;
+    background-color: #CDC7B5;
+    margin-top: 10px;
 
 }
 
-button{
+.formulario form h3 {
+    padding: 20px;
+    color: #8F6B42;
+    text-transform: uppercase;
+
+}
+
+.formulario form label {
+    margin-left: 20px;
+
+}
+
+.formulario form #qnt {
+    width: 35px;
+    border: none;
+
+}
+
+.formulario form #data {
+    border: none;
+
+}
+
+button {
     border: none;
     background-color: transparent;
     border-radius: none;
     margin: 0 auto;
     display: flex;
-    
-   
+
+
 }
 
-#submit{
-    width: 280px;
-    height: 40px;
+#submit {
+    width: 320px;
+    height: 45px;
     margin-top: 20px;
-    
+    background-color: #af9f7c;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+
 }
 
-.fieldset{
-    
-}
+.fieldset {}
 
-#areafotos{
+#areafotos {
     width: 350px;
     height: 320px;
     background-color: #EDE5DF;
-    
+
 }
 
-div #areafotos > section{
-  
+#areafotos h3{
+    padding: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #7D593B;
+
+}
+
+
+
+
+div #areafotos>section {
+
     width: 350px;
     height: 250px;
     display: flex;
     flex-wrap: wrap;
-    
-}
-.imgconf{
-     position: relative;
-     left: 30px;
-     top: 7px;
 
 }
 
+.imgconf {
+    position: relative;
+    left: 30px;
+    top: 7px;
+
+}
 
 
-.fotos{
+
+.fotos {
     width: 155px;
     height: 105px;
-
     margin: 10px;
     background-image: url(img/fundo-foto.png);
     background-repeat: no-repeat;
-   background-position: center center;
-   background-size: 75%;
-    
-    
-  
-    
+    background-position: center center;
+    background-size: 75%;
+
+
+
+
 
 }
+
 /*Fim Conteudo lateral */
 /*início Area principal centro */
 
-#conteudo_principal{
+#conteudo_principal {
     width: 100%;
     height: 800px;
-  
+
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
 
 
-#conteudo{
+#conteudo {
     width: 710px;
     height: 300px;
-    background-color: aqua;
     margin-top: -80px;
-    
-    
-   
+
+
+
 }
-.infomuseu{
-   
+
+.infomuseu {
     display: flex;
-  
-    
+
+
 }
 
 
 
-.containner1{
-   
-    width: auto;
-    height: 443px;
+.containner1 {
+    width: 360px;
+    height: 412px;
     display: flex;
     flex-direction: column;
 }
 
-.containner1_part2 section ul{
-    margin-left: 45px;
+.containner1_part2 section ul {
+    margin-left: 25px;
 }
 
-.containner1_part2{
- width: 350px;
-
- 
+.containner1_part2 section ul li{
+   
 }
 
-iframe{
-  
+
+.containner1_part2 {
+    width: 350px;
+
 
 }
+
+iframe {}
+
 .containner2{
-    
-    width: auto;
-    height: 150px;
+
+    width: 360px;
+    height: 450px;
     margin-left: 5px;
 }
 
-.localização{
+.localização {
     width: auto;
     height: 174px;
     background-color: rgb(198, 255, 255);
 }
 
 
-h1{
+h1 {
     margin-bottom: 15px;
     margin-top: 15px;
+    color: #508047;
+    text-transform: uppercase;
+    font-size: large;
 }
 
-h2{
+h2 {
     margin: 25px 0px 5px 0px;
+    color: #508047;
 }
 
-a{
+a {
     color: #D5AC7D;
 }
 
-.id1{
+.id1 {
     margin-top: 10px;
 }
 
@@ -229,10 +274,36 @@ a{
 
 
 /* início roda pé */
-footer{
-width: auto;
-height: 15px;
-background-color: rgba(255, 0, 0, 0.26);
+footer {
+    width: 700px;
+    height: 15px;
+    border-top:1px solid #d5ac7d5b;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 25px;
 }
+
+#roda_pe ul{
+   list-style: none;
+   text-decoration: none;
+   display: flex;
+ 
+    
+}
+
+#roda_pe ul a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+  
+     
+ }
+
+ footer p{
+    margin-left: 70px;
+    margin-top: 15px;
+ }
+ 
 
 /*fim roda pé */
