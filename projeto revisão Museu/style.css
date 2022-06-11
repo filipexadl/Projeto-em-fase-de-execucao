@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
     
 }
 
@@ -10,7 +11,7 @@
 header{
     width: 100%;
     height: 200px;
-    background-color: black;
+    background-color: rgb(70, 56, 49);
 
 
 }
@@ -19,7 +20,7 @@ header{
 #area_topo{
     max-width: 80%;
     height: 150px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(70, 56, 49, 0.986);
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -40,18 +41,21 @@ header{
 .menu ul a{
     width: 100%;
     display: flex;
-    background-color: antiquewhite;
+    
     text-decoration: none;
     list-style: none;
     margin-left: 3px;
     padding: 8px;
+    color: white;
  
 }
 
 .logo{
-  width: 200px;
-  height: 80px;
-  background-color: red;
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+
+
  
 }
 
@@ -78,13 +82,15 @@ nav{
 }
 
 .containner0{
-    background-color: rgb(191, 255, 179);
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(img/museu.png);
-    background-size: contain;
+    background-image: url(img/GERAL_EXTERNA_NORTE_13.png);
+    background-position: left center;
+   
+    background-size: 70%;
+   
     border-radius: 10px;
    
    }
@@ -93,10 +99,6 @@ nav{
     width: 300px;
     height: 240px;
     flex-grow: calc(3);
-    
-   
-    
-
  }  
 
  .img_lateral{
@@ -111,35 +113,75 @@ nav{
     background-position-y: 50%;
     border-radius: 10px 3px 3px 10px;
     opacity: 0.9;
-
-    
-    
-    
  }
 
 
 
 .containner1{
     margin-top: 5px;
-    background-color: rgb(17, 0, 255);
+    background-color: #d68d492c;
     width: 280px;
-    height: 300px;
+    height: 530px;
     flex-grow: calc(1);
 }
+
+.containner1 h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.containner1 iframe{
+    width: 100%;
+    height: 315px;
+}
+
+.containner1 li{
+  
+    margin: 3px 0px 0px 25px;
+}
+.containner1 a{
+    text-decoration: none;
+
+}
+ 
+
+
 
 .containner2{
     margin-top: 5px;
     margin-left: 5px;
-    background-color: rgb(17, 0, 255);
+    background-color: #d68d492c;
     width: 280px;
-    height: 300px;
+    height: 530px;
     flex-grow: calc(1);
 }
 
+.containner2 iframe{
+  width: 100%;
+  height: 315px;
+}
+
+
+.containner2 h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.containner2 h2{
+    margin-left: 20px;
+}
+
+
+
+
+/*inicio do aside 01*/
+ 
 .containner_aside{
     margin-top: 5px;
     margin-left: 5px;
-    background-color: rgb(255, 187, 0);
+    background-color: #d68d4946;
     width: 280px;
     height: 300px;
     flex-grow: calc(0);
@@ -148,18 +190,65 @@ nav{
 
 .disponibilidade{
  width: 100%;
- background-color: rgb(200, 224, 245);
+ background-color: #d68d4900;
  height: 150px;
 }
 
+.disponibilidade h3{
+    text-align: center;
+    margin: 20px 0px 20px 0;
+}
 
+.disponibilidade #data{
+    width: 80px;
+    
+  
+}
+
+.disponibilidade #qnt{
+    width: 30px;
+  
+}
+
+button{
+   border: none;
+   border-radius: none;
+   background-color: transparent;
+  
+
+   
+}
+
+
+.disponibilidade #submit{
+    background-color: transparent;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    background-color: burlywood;
+    border: none;
+    border-radius: none;
+    margin: 20px 5px 5px 15px;
+
+
+  
+}
+
+
+
+
+
+
+/*Fim do aside 01*/
+
+/*inicio do aside 02*/
 .galeria{
     margin-top: 5px;
     width: 100%;
     background-color: rgb(200, 224, 245);
-    height: 150px;
+    height: 250px;
 }
-
+/*Fim do aside 02*/
 
 
 /*Nav fim*/
