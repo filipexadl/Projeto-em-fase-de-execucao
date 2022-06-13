@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-  
-    
 }
 
 
@@ -12,6 +10,7 @@ header{
     width: 100%;
     height: 200px;
     background-color: rgb(70, 56, 49);
+    
 
 
 }
@@ -41,14 +40,15 @@ header{
 .menu ul a{
     width: 100%;
     display: flex;
-    
     text-decoration: none;
     list-style: none;
     margin-left: 3px;
     padding: 8px;
-    color: white;
+    
  
 }
+
+
 
 .logo{
   width: 250px;
