@@ -9,6 +9,7 @@
     background-color: rgb(147, 146, 146);
     height: 1000px;
     width: 100%;
+    position: relative;
 }
 
 header{
@@ -58,6 +59,8 @@ nav{
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: aliceblue;
+  
     
 }
 
@@ -67,32 +70,10 @@ nav{
     opacity: 0.8;
 }
 
-
-
-button{
-    background-color: bisque;
-    border: none;
-    color: rgb(0, 0, 0);
-    margin: 10px 0px 10px 0px;
-    font-size: 36px;
-    display: flex;
-    align-items: center;
-    display: none;
+input[type="checkbox"]{
    
 }
 
-
-button:hover{
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    opacity: 0.8;
-    z-index: 1;
-}
-
-button:focus ~ ul{
-    color: red
-    black    
-}
 
 
 
