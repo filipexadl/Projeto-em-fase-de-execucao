@@ -7,14 +7,14 @@
 
 #projeto1{
     background-color: rgb(147, 146, 146);
-    height: 1000px;
+    height: 1500px;
     width: 100%;
     position: relative;
 }
 
 header{
     height: 60px;
-    min-width: 437px;
+    min-width: 400px;
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,7 @@ nav{
 /*Inicio do conteudo*/
 #conteudo{
     max-width: 900px;
-    min-width: 450px;
+    min-width: 400px;
     height: 500px;
    
     margin: 0 auto;
@@ -94,7 +94,7 @@ nav{
 
 }
 
-.img-slider{
+#img-slider{
     width: 100%;
     height: 482px;
 }
@@ -125,6 +125,40 @@ input[type="radio"]{
 .slider > input:nth-child(4):checked ~ .slider-content{
     transform: translateX(-300%);
 }
+/*Anuncios*/
+
+.separador{
+width: 550px;
+margin: 0 auto;
+height: 1px;
+background-color: black;
+border: 2px solid rgb(199, 199, 199);
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#anuncios{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-top: 10px;
+    row-gap: 20px;
+    column-gap: 10px;
+    
+}
+
+.itens{
+    background-color: aliceblue;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.anu_img{
+    width: auto;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 5px 5px 10px 10px;
+}
+
 
 
 
