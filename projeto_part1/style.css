@@ -73,27 +73,37 @@ nav{
 /*Fim do header*/
 /*Inicio do conteudo*/
 #conteudo{
-    width: 600px;
+    max-width: 900px;
+    min-width: 450px;
     height: 500px;
-    background-color: rgb(226, 54, 54);
+   
     margin: 0 auto;
+    
 }
 
 .slider{
     overflow: hidden;
+    border-radius: 0px 0px 60px 60px;
 
 }
 .slider > .slider-content{
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-    transition: all 500ms ease;
+    transition: all 800ms ease;
 
 }
 
 .img-slider{
-width: 600px;
-height: 482px;
+    width: 100%;
+    height: 482px;
+}
+
+input[type="radio"]{
+   
+    
+    
+   
 }
 
 .slider > .slider-content > .slider-item {
@@ -119,6 +129,8 @@ height: 482px;
 
 
 /*Fim do conteudo*/
+
+
 
 
 
