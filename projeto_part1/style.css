@@ -7,7 +7,7 @@
 
 #projeto1{
     background-color: rgb(147, 146, 146);
-    height: 1500px;
+    height: 2500px;
     width: 100%;
     position: relative;
 }
@@ -99,13 +99,6 @@ nav{
     height: 482px;
 }
 
-input[type="radio"]{
-   
-    
-    
-   
-}
-
 .slider > .slider-content > .slider-item {
     flex: 0 0 auto;
     width: 100%;
@@ -139,25 +132,74 @@ margin-bottom: 10px;
 
 #anuncios{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    margin-top: 10px;
-    row-gap: 20px;
-    column-gap: 10px;
-    
+    max-width: 1200px;
+    grid-template-areas: 
+    "itens itens itens"
+    "itens itens itens"
+    "itens itens itens"
+    "itens itens itens"
+    ;
+    row-gap: 5px;
+    column-gap: 5px;
+       
+
 }
+.anu1{
+    grid-area: 'itens';
+   
+}
+.anu2{
+    grid-area: 'itens';
+}
+
+.anu3{
+    grid-area: 'itens';
+}
+
+.anu4{
+    grid-area: 'itens';
+}
+
+.anu5{
+    grid-area: 'itens';
+}
+
+.anu6{
+    grid-area: 'itens';
+}
+
+
+
+
 
 .itens{
     background-color: aliceblue;
-    height: 250px;
-    border-radius: 10px;
+    width: 277px;
+    
+    height: 350px;
+    border-radius: 3px 3px 10px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .anu_img{
-    width: auto;
-    height: 150px;
+    width: 277px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 5px 5px 10px 10px;
+    
+}
+
+.img-mod0{
+    width: 277px;
+    height: 180px;
     background-color: aqua;
     border-radius: 5px 5px 10px 10px;
 }
+
+
+
+
+
 
 
 

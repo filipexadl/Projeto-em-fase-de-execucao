@@ -16,7 +16,7 @@
 
 
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .logo {
         margin: 0;
         padding: 10px;
@@ -32,6 +32,22 @@
         width: 80px;
         min-width: 50px;
     }
+    #anuncios{
+        display: grid;
+        max-width: 1200px;
+        grid-template-areas: 
+        "itens itens "
+        "itens itens "
+        "itens itens "
+        
+        ;
+        row-gap: 5px;
+        column-gap: 5px;
+        justify-content: center;
+           
+    
+    }
+
 }
 
 
@@ -85,12 +101,51 @@
 
     }
 }
-    @media (max-width:650px) {
+    @media (max-width:600px) {
        .logo {
          margin: 0 auto;
          width: 150px; 
          background-color: rgb(206, 244, 244);
         }
+        #anuncios{
+            display: grid;
+            max-width: 1200px;
+            grid-template-areas: 
+            "itens"
+            "itens"
+            "itens"
+            
+            ;
+            row-gap: 5px;
+            column-gap: 5px;
+            justify-content: center;   
+        }
+
+        .itens{
+            background-color: aliceblue;
+            width: 277px;
+            height: 350px;
+            border-radius: 3px 3px 10px 10px;
+            margin: 0px 10px 0px 10px;
+        }
+        
+        .anu_img{
+            width: 277px;
+            height: 180px;
+            background-color: aqua;
+            border-radius: 5px 5px 10px 10px;
+            
+        }
+        
+        .img-mod0{
+            width: 277px;
+            height: 180px;
+            background-color: aqua;
+            border-radius: 5px 5px 10px 10px;
+        }
+        
+        
+
     }
 
 
