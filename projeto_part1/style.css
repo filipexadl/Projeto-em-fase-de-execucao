@@ -7,7 +7,7 @@
 
 #projeto1{
     background-color: rgb(147, 146, 146);
-    height: 2500px;
+    height: 4000px;
     width: 100%;
     position: relative;
 }
@@ -74,7 +74,7 @@ nav{
 /*Inicio do conteudo*/
 #conteudo{
     max-width: 900px;
-    min-width: 400px;
+    min-width: 300px;
     height: 500px;
    
     margin: 0 auto;
