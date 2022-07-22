@@ -1,4 +1,5 @@
 @media (min-width:1800px) {
+     /*header*/
     .logo {
         margin-left: 250px;
         padding: 10px;
@@ -13,10 +14,11 @@
         min-width: 50px;
     }
 }
-
+ /*Fim header*/
 
 
 @media (max-width:900px) {
+     /*header*/
     .logo {
         margin: 0;
         padding: 10px;
@@ -32,30 +34,39 @@
         width: 80px;
         min-width: 50px;
     }
-    #anuncios{
+ /*Fim header*/
+  /*Anuncios*/
+    #anuncios {
         display: grid;
         max-width: 1200px;
-        grid-template-areas: 
-        "itens itens "
-        "itens itens "
-        "itens itens "
-        
+        grid-template-areas:
+            "itens itens "
+            "itens itens "
+            "itens itens "
+
         ;
         row-gap: 5px;
         column-gap: 5px;
         justify-content: center;
-           
-    
+        margin-bottom: 10px;
     }
+ /*Fim anuncios*/
+  /*videos*/ 
+    #video {
+        margin: 0 auto;
+        width: 580px;
 
+    }
+/*Fim videos*/
 }
 
 
 
 @media (max-width:700px) {
+    /*header*/
     header {
         display: block;
-        
+
         justify-content: center;
         text-align: center;
     }
@@ -90,8 +101,8 @@
         top: 200px;
         height: 450px;
     }
-
-    /*anuncios*/
+ /*Fim header*/
+   /*Conteudos Anuncios div anuncios*/
 
     .separador {
         display: none;
@@ -101,56 +112,70 @@
         margin-top: 220px;
 
     }
+/*Fim conteudos Anuncios div anuncios*/
 }
-    @media (max-width:600px) {
-       .logo {
-         margin: 0 auto;
-         width: 150px; 
-         background-color: rgb(206, 244, 244);
-        }
-        #anuncios{
-            display: grid;
-            max-width: 1200px;
-            grid-template-areas: 
-            "itens"
-            "itens"
-            "itens"
-            ;
-            row-gap: 5px;
-            column-gap: 5px;
-            justify-content: center;   
-        }
 
-        .itens{
-            background-color: aliceblue;
-            width: 277px;
-            height: 350px;
-            border-radius: 3px 3px 10px 10px;
-            margin: 0px 10px 0px 10px;
-        }
-        
-        .anu_img{
-            width: 277px;
-            height: 180px;
-            background-color: aqua;
-            border-radius: 5px 5px 10px 10px;
-            
-        }
-        
-        .img-mod0{
-            width: 277px;
-            height: 180px;
-            background-color: aqua;
-            border-radius: 5px 5px 10px 10px;
-        }
-        
-        
+@media (max-width:600px) {
+
+    /*Header*/
+    .logo {
+        margin: 0 auto;
+        width: 150px;
+        background-color: rgb(206, 244, 244);
+    }
+
+    /* Fim Header*/
+    /*Conteudos Anuncios div anuncios*/
+    #anuncios {
+        display: grid;
+        max-width: 1200px;
+        grid-template-areas:
+            "itens"
+            "itens"
+            "itens"
+        ;
+        row-gap: 5px;
+        column-gap: 5px;
+        justify-content: center;
+    }
+
+    .itens {
+        background-color: aliceblue;
+        width: 277px;
+        height: 350px;
+        border-radius: 3px 3px 10px 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .anu_img {
+        width: 277px;
+        height: 180px;
+        background-color: aqua;
+        border-radius: 5px 5px 10px 10px;
 
     }
 
+    .img-mod0 {
+        width: 277px;
+        height: 180px;
+        background-color: aqua;
+        border-radius: 5px 5px 10px 10px;
+    }
 
+    /*Fim onteudos Anuncios div anuncios*/
+    /*vídeo*/
+    #video {
+        margin: 0 auto;
+        width: 280px;
+        height: 300px;
 
+    }
 
+    #video:after {
+        width: 100%;
+        height: 300px;
+    }
 
+    /*Fim vídeo*/
 
-
+}

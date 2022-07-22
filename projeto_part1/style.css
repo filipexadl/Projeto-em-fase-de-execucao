@@ -6,18 +6,27 @@
 }
 
 #projeto1{
-    background-color: rgb(147, 146, 146);
+    background-image: url(img/novas1/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     height: 4000px;
     width: 100%;
     position: relative;
 }
 
 header{
-    height: 60px;
+    height: 100px;
     min-width: 400px;
-    background-color: aliceblue;
+    background-image: radial-gradient(circle at 107.92% 9.44%, #ff69af00 0, #ff5eba 8.33%,
+     #ff54c5 16.67%, #ff4bd1 25%, #ff43dc 33.33%, #ff3ee7 41.67%, #f23cf2 50%,
+      #d73efd 58.33%, #b644ff 66.67%, #8e4cff 75%, #5154ff 83.33%, #005cff 91.67%, #0062ff08 100%);
     display: flex;
     justify-content: space-between;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.63); 
+box-shadow: 0px 10px 13px -7px #00000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.716);
+-webkit-box-shadow: 0px 10px 13px -7px #000000, inset 9px -23px 10px -11px rgba(0,0,0,0.57); 
+box-shadow: 0px 10px 13px -7px #000000, inset 9px -23px 10px -11px rgba(0,0,0,0.57);
+   
 }
 
 
@@ -38,6 +47,8 @@ header{
 nav{
     display: flex;
     justify-content: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.63); 
+    box-shadow: 0px 10px 13px -7px #00000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.716);
 }
 
 .menu{
@@ -76,6 +87,7 @@ nav{
     max-width: 900px;
     min-width: 300px;
     height: 500px;
+    position: relative;
    
     margin: 0 auto;
     
@@ -84,6 +96,8 @@ nav{
 .slider{
     overflow: hidden;
     border-radius: 0px 0px 60px 60px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.63); 
+    box-shadow: 0px 10px 13px -7px #00000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.716);
 
 }
 .slider > .slider-content{
@@ -128,6 +142,8 @@ background-color: black;
 border: 2px solid rgb(199, 199, 199);
 margin-top: 10px;
 margin-bottom: 10px;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.63); 
+box-shadow: 0px 10px 13px -7px #00000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.716);
 }
 
 #anuncios{
@@ -139,13 +155,15 @@ margin-bottom: 10px;
     "itens itens itens"
     "itens itens itens"
     ;
-    row-gap: 5px;
+    row-gap: 10px;
     column-gap: 5px;
+;
        
 
 }
 .anu1{
     grid-area: 'itens';
+    
    
 }
 .anu2{
@@ -178,6 +196,9 @@ margin-bottom: 10px;
     height: 350px;
     border-radius: 3px 3px 10px 10px;
     margin: 0px 10px 0px 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 6px 38px 16px rgba(0,0,0,0.5); 
+box-shadow: 0px 10px 13px -7px #575656, -1px 6px 38px 16px rgba(0,0,0,0.5);
+ 
 }
 
 .anu_img{
@@ -185,7 +206,20 @@ margin-bottom: 10px;
     height: 180px;
     background-color: aqua;
     border-radius: 5px 5px 10px 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 39px 20px -3px rgba(0,0,0,0.18); 
+    box-shadow: 0px 10px 13px -7px #000000, -1px 39px 20px -3px rgba(0,0,0,0.18);
     
+}
+
+.anu_img:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 39px 20px -3px rgba(255,2,2,0.18); 
+    box-shadow: 0px 10px 13px -7px #8a8686, -1px 39px 20px -3px rgba(255,2,2,0.18);
+    padding: 5px;
+    background-image: radial-gradient(circle at 107.92% 9.44%, #ff69af00 0, #ff5eba 8.33%,
+     #ff54c5 16.67%, #ff4bd1 25%, #ff43dc 33.33%, #ff3ee7 41.67%, #f23cf2 50%,
+      #d73efd 58.33%, #b644ff 66.67%, #8e4cff 75%, #5154ff 83.33%, #005cff 91.67%, #0062ff08 100%);
+     cursor: pointer; 
+
 }
 
 .img-mod0{
@@ -193,7 +227,10 @@ margin-bottom: 10px;
     height: 180px;
     background-color: aqua;
     border-radius: 5px 5px 10px 10px;
+    
 }
+/*Fim anuncios*/
+
 
 
 
