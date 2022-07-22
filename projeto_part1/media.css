@@ -1,5 +1,6 @@
 @media (min-width:1800px) {
-     /*header*/
+
+    /*header*/
     .logo {
         margin-left: 250px;
         padding: 10px;
@@ -14,34 +15,43 @@
         min-width: 50px;
     }
 
-  
-    
+
+
 }
 
-@media (max-width:1400px) {
-    #ofertas{
-        
-        height: 180px;
+@media (max-width:1500px) {
+    #ofertas {
         display: grid;
         grid-template-columns: 1fr;
+
         justify-items: center;
-        
-      
-        
-    
+
     }
- 
-   
+    #ofertas2{
+        display: grid;
+        grid-template-areas: 
+            ".ofe-itens1 .ofe-itens2"
+            ".ofe-itens1 .ofe-itens2"
+            ".ofe-itens3 .ofe-itens4"
+          
+        ;
+        justify-content: center;
+        column-gap: 10px;
+     
+    }
+
+
 }
 
 
 
 
- /*Fim header*/
+/*Fim header*/
 
 
 @media (max-width:900px) {
-     /*header*/
+
+    /*header*/
     .logo {
         margin: 0;
         padding: 10px;
@@ -57,8 +67,9 @@
         width: 80px;
         min-width: 50px;
     }
- /*Fim header*/
-  /*Anuncios*/
+
+    /*Fim header*/
+    /*Anuncios*/
     #anuncios {
         display: grid;
         max-width: 1200px;
@@ -73,29 +84,40 @@
         justify-content: center;
         margin-bottom: 10px;
     }
- /*Fim anuncios*/
-  /*videos*/ 
+
+    /*Fim anuncios*/
+    /*videos*/
     #video {
         margin: 0 auto;
         width: 580px;
 
     }
-/*Fim videos*/
-#ofertas{
-    height: 180px;
-    display: grid;
-    grid-template-columns:2fr;
-    column-gap: 20px;
-    justify-content: center;
-    margin: 20px;
-    
 
-}
+    /*Fim videos*/
+    #ofertas {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+
+    .of1>img {
+        max-width: 450px;
+        min-width: 350px;
+    }
+
+    .of2>img {
+        max-width: 450px;
+        min-width: 350px;
+    }
+
+
 }
 
 
 
 @media (max-width:700px) {
+
     /*header*/
     header {
         display: block;
@@ -135,8 +157,9 @@
         top: 200px;
         height: 450px;
     }
- /*Fim header*/
-   /*Conteudos Anuncios div anuncios*/
+
+    /*Fim header*/
+    /*Conteudos Anuncios div anuncios*/
 
     .separador {
         display: none;
@@ -146,10 +169,8 @@
         margin-top: 220px;
 
     }
-/*Fim conteudos Anuncios div anuncios*/
 
-
-
+    /*Fim conteudos Anuncios div anuncios*/
 
 
 }
@@ -211,12 +232,26 @@
     }
 
     #video:after {
-      
+
         height: 300px;
     }
 
     /*Fim vídeo*/
+    #ofertas {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
 
-    
-       
+
+    }
+
+    .of1>img {
+        width: 250px;
+    }
+
+    .of2>img {
+       width: 250px;
+    }
+
+
 }

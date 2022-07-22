@@ -18,8 +18,8 @@ header {
     height: 100px;
     min-width: 400px;
     background-image: radial-gradient(circle at 107.92% 9.44%, #ff69af00 0, #ff5eba 8.33%,
-    #ff54c5 16.67%, #ff4bd1 25%, #ff43dc 33.33%, #ff3ee7 41.67%, #f23cf2 50%,
-    #d73efd 58.33%, #b644ff 66.67%, #8e4cff 75%, #5154ff 83.33%, #005cff 91.67%, #0062ff08 100%);
+            #ff54c5 16.67%, #ff4bd1 25%, #ff43dc 33.33%, #ff3ee7 41.67%, #f23cf2 50%,
+            #d73efd 58.33%, #b644ff 66.67%, #8e4cff 75%, #5154ff 83.33%, #005cff 91.67%, #0062ff08 100%);
     display: flex;
     justify-content: space-between;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.63);
@@ -241,43 +241,85 @@ nav {
 
 /*Fim anuncios*/
 
-
-#ofertas{
-height: 180px;
-display: grid;
-grid-template-columns: 750px 2fr;
-column-gap: 20px;
-justify-content: center;
-margin: 20px;
-
+/*ofertas 1 e 2*/
+#ofertas {
+ display: grid;
+ 
+ grid-template-columns: auto 2fr;
+ justify-content: center;
 
 
 }
 
-.of1{
+.of1 {
     background-color: transparent;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
 }
 
-.of2{
+.of1>img{
+    max-width: 900px;
+    min-width: 450px;
+}
+
+.of2>img{
+    max-width: 900px;
+    min-width: 450px;
+}
+
+.of2 {
     background-color: transparent;
-    padding: 20px;
-
-   
+    padding: 10px;
+    cursor: pointer;
 }
 
-.of1:hover{
+
+
+.of1:hover {
     transition: 2s;
     background-color: #fefefe2d;
 }
 
-.of2:hover{
+.of2:hover {
     transition: 2s;
     background-color: #fefefe2d;
 }
 
+#ofertas2{
+    display: grid;
+    grid-template-areas: 
+        ".ofe-itens1 .ofe-itens2 .ofe-itens3 .ofe-itens4"
+        ".ofe-itens1 .ofe-itens2 .ofe-itens3 .ofe-itens4"
+        ".ofe-itens1 .ofe-itens2 .ofe-itens3 .ofe-itens4"
+        ".ofe-itens1 .ofe-itens2 .ofe-itens3 .ofe-itens4"
+    ;
+    justify-content: center;
+    column-gap: 10px;
+ 
+}
 
+.ofe-01{
+    
+}
+
+.ofe-itens1{
+  grid-area: ".ofe-itens1";
+
+}
+
+.ofe-itens2{
+    grid-area: ".ofe-itens2";
+    
+}
+.ofe-itens3{
+
+    grid-area: ".ofe-itens3";
+}
+.ofe-itens4{
+    grid-area: ".ofe-itens4";
+    
+}
+/*ofertas 1 e 2*/
 
 
 
