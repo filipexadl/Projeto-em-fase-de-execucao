@@ -22,23 +22,14 @@
 @media (max-width:1500px) {
     #ofertas {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr 2fr;
 
         justify-items: center;
 
     }
-    #ofertas2{
-        display: grid;
-        grid-template-areas: 
-            ".ofe-itens1 .ofe-itens2"
-            ".ofe-itens1 .ofe-itens2"
-            ".ofe-itens3 .ofe-itens4"
-          
-        ;
-        justify-content: center;
-        column-gap: 10px;
-     
-    }
+
+
+    
 
 
 }
@@ -77,12 +68,10 @@
             "itens itens "
             "itens itens "
             "itens itens "
-
         ;
-        row-gap: 5px;
-        column-gap: 5px;
+
         justify-content: center;
-        margin-bottom: 10px;
+
     }
 
     /*Fim anuncios*/
@@ -94,25 +83,42 @@
     }
 
     /*Fim videos*/
-    #ofertas {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
 
-    }
+    /*Ofertas 1 e 2*/
+  
 
-    .of1>img {
-        max-width: 450px;
-        min-width: 350px;
-    }
-
-    .of2>img {
-        max-width: 450px;
-        min-width: 350px;
-    }
 
 
 }
+
+
+
+
+.ofe-itens1 {
+    grid-area: ".ofe-itens1";
+
+}
+
+.ofe-itens2 {
+    grid-area: ".ofe-itens2";
+
+}
+
+.ofe-itens3 {
+
+    grid-area: ".ofe-itens3";
+}
+
+.ofe-itens4 {
+
+    grid-area: ".ofe-itens4";
+}
+
+
+
+
+/*Fim Ofertas 1 e 2*/
+
 
 
 
@@ -170,7 +176,9 @@
 
     }
 
+  
     /*Fim conteudos Anuncios div anuncios*/
+   
 
 
 }
@@ -237,21 +245,9 @@
     }
 
     /*Fim vídeo*/
-    #ofertas {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
 
-
-    }
-
-    .of1>img {
-        width: 250px;
-    }
-
-    .of2>img {
-       width: 250px;
-    }
-
+ 
+    
+   
 
 }
