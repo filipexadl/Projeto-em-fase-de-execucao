@@ -20,27 +20,26 @@
 }
 
 @media (max-width:1500px) {
+
+    /*ofertas 1 e 2*/
     #ofertas {
         display: grid;
-        grid-template-columns: 2fr 2fr;
-
-        justify-items: center;
-
+        grid-template-columns: minmax(2fr, 400px, 250px);
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
-    
+    .of1>img {
+        width: 280px;
+    }
 
+    .of2>img {
+        width: 280px;
+    }
 
-    
-
+    /* Fim ofertas 1 e 2*/
 
 }
-
-
-
-
-/*Fim header*/
-
 
 @media (max-width:900px) {
 
@@ -87,41 +86,26 @@
     /*Fim videos*/
 
     /*Ofertas 1 e 2*/
-  
+    #ofertas {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+    }
+
+    .of1>img {
+        width: auto;
+    }
+
+    .of2>img {
+        width: auto;
+    }
 
 
+    /* Fim ofertas 1 e 2*/
 
 }
-
-
-
-
-.ofe-itens1 {
-    grid-area: ".ofe-itens1";
-
-}
-
-.ofe-itens2 {
-    grid-area: ".ofe-itens2";
-
-}
-
-.ofe-itens3 {
-
-    grid-area: ".ofe-itens3";
-}
-
-.ofe-itens4 {
-
-    grid-area: ".ofe-itens4";
-}
-
-
-
-
-/*Fim Ofertas 1 e 2*/
-
-
 
 
 @media (max-width:700px) {
@@ -178,9 +162,9 @@
 
     }
 
-  
+
     /*Fim conteudos Anuncios div anuncios*/
-   
+
 
 
 }
@@ -248,8 +232,27 @@
 
     /*Fim vídeo*/
 
- 
-    
-   
+    /*ofertas 1 e 2*/
+    #ofertas {
+        width: 400px;
+        display: grid;
+        background-color: rgba(242, 243, 243, 0.146);
+        grid-template-columns: 250px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .of1>img {
+        width: 250px;
+    }
+
+    .of2>img {
+        width: 250px;
+    }
+
+    /* Fim ofertas 1 e 2*/
+
+
 
 }
