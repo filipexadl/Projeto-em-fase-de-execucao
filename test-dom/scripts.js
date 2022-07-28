@@ -28,7 +28,7 @@ var res = (varialvel1 + varialvel2) /2
 document.write(`${res}`)*/
 
 /*A média de aprovação é 8 */
-var media1 = prompt('Qual a sua primeira nota?')
+/*var media1 = prompt('Qual a sua primeira nota?')
 var media2 = prompt('Qual a sua segunda nota?')
 
 media1 = parseInt(media1)
@@ -46,5 +46,6 @@ if (res >=8) {
 }
 
 //document.write(`${res}`)//
+*/
 
 
