@@ -104,7 +104,17 @@
 
 
     /* Fim ofertas 1 e 2*/
-
+    #ofertas2{
+       
+        max-width: 950px;
+        min-width: 350px;
+        margin-right: 5px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(120px , 350px)) ;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
 }
 
 
@@ -252,7 +262,17 @@
     }
 
     /* Fim ofertas 1 e 2*/
-
+    #ofertas2{
+        
+        max-width: 950px;
+        min-width: 350px;
+        margin-right: 5px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(90px , 250px)) ;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
 
 
 }
