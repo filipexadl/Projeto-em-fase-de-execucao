@@ -9,7 +9,7 @@
     background-image: url(img/novas1/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 4000px;
+    height: 8000px;
     width: 100%;
     position: relative;
 }
@@ -376,15 +376,52 @@ nav {
    
     max-width: 950px;
     min-width: 350px;
-    margin-right: 5px;
     gap: 5px;
     display: grid;
-    grid-template-columns: repeat(4, minmax(180px , 250px)) ;
-    grid-template-rows: 400px;
+    grid-template-columns: repeat(4, minmax(180px , 250px));
+    grid-template-rows: 200px;
     border: 1px solid red;
     margin-top: 30px;
+    color: white;
 }
 
+#departamento1{
+    max-width: 950px;
+    min-width: 350px;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(180px , 250px));
+    grid-template-rows: 200px;
+    border: 1px solid red;
+    margin-top: 10px;
+    color: white;
+}
+
+#departamento2{
+    max-width: 950px;
+    min-width: 350px;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(180px , 250px));
+    grid-template-rows: 200px;
+    border: 1px solid red;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
+
+.dep-anuncio{
+    border: 1px solid red;
+}
+
+
+.dep-anuncio{
+
+ background-color: white;
+}
 /*Fim suporte*/
 
 

@@ -114,7 +114,57 @@
         grid-template-columns: repeat(2, minmax(120px , 350px)) ;
         grid-template-rows: auto;
         justify-content: center;
+        
     }
+    /*departamento*/
+    #departamento{
+   
+        max-width: 950px;
+        min-width: 350px;
+        height: 400px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px , 250px));
+        grid-template-rows: 200px;
+        border: 1px solid red;
+        margin: 10px 20px 10px 20px;
+        color: white;
+        background-color: rgba(0, 255, 255, 0.298);
+        justify-content: center;
+    }
+
+    #departamento1{
+   
+        max-width: 950px;
+        min-width: 350px;
+        height: 400px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px , 250px));
+        grid-template-rows: 200px;
+        border: 1px solid red;
+        margin: 10px 20px 10px 20px;
+        color: white;
+        background-color: rgba(0, 255, 255, 0.298);
+        justify-content: center;
+    }
+
+    #departamento2{
+   
+        max-width: 950px;
+        min-width: 350px;
+        height: 400px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px , 250px));
+        grid-template-rows: 200px;
+        border: 1px solid red;
+        margin: 10px 20px 10px 20px;
+        color: white;
+        background-color: rgba(0, 255, 255, 0.298);
+        justify-content: center;
+    }
+    /*fim departamneto*/
 }
 
 
