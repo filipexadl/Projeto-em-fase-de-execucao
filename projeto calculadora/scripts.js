@@ -7,7 +7,9 @@ function calcular (tipo , valor) {
 
         if (valor === 0) {
             document.getElementById('resultado').value += 0
+           
         }
+      
 
         if (valor === '+' || valor === '-' || valor === '+' || valor === '*' || valor === '/' || valor === '.') {
             document.getElementById('resultado').value += valor
