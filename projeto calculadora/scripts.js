@@ -1,27 +1,21 @@
-function calcular (tipo , valor) {
+function calcular (tipo , valorr) {
     if (tipo === 'acao') {
 
-        if (valor === 'c') {
+        if (valorr === 'c') {
             document.getElementById('resultado').value = '' 
         }
-
-        if (valor === 0) {
-            document.getElementById('resultado').value += 0
-           
-        }
-      
-
-        if (valor === '+' || valor === '-' || valor === '+' || valor === '*' || valor === '/' || valor === '.') {
-            document.getElementById('resultado').value += valor
+        
+        if (valorr === '+' || valorr === '-' || valorr === '+' || valorr === '*' || valorr === '/' || valorr === '.') {
+            document.getElementById('resultado').value += valorr
         }
 
-        if (valor === '=') {
+        if (valorr === '=') {
            var valor_campo = document.getElementById('resultado').value
            document.getElementById('resultado').value = (eval(valor_campo))
           
         }
     } else if(tipo === 'valor') {
-     document.getElementById('resultado').value += valor
+     document.getElementById('resultado').value += valorr
     }
 }
 
