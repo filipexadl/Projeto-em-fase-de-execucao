@@ -5,6 +5,10 @@ function calcular (tipo , valor) {
             document.getElementById('resultado').value = '' 
         }
 
+        if (valor === 0) {
+            document.getElementById('resultado').value += 0
+        }
+
         if (valor === '+' || valor === '-' || valor === '+' || valor === '*' || valor === '/' || valor === '.') {
             document.getElementById('resultado').value += valor
         }
