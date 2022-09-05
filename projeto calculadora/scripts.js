@@ -1,21 +1,28 @@
-function calcular (tipo , valorr) {
+function calcular(tipo, valor) {
     if (tipo === 'acao') {
 
-        if (valorr === 'c') {
-            document.getElementById('resultado').value = '' 
-        }
-        
-        if (valorr === '+' || valorr === '-' || valorr === '+' || valorr === '*' || valorr === '/' || valorr === '.') {
-            document.getElementById('resultado').value += valorr
-        }
+        if (valor === 'c') {
+            document.getElementById('resultado').value = ''
 
-        if (valorr === '=') {
-           var valor_campo = document.getElementById('resultado').value
-           document.getElementById('resultado').value = (eval(valor_campo))
+            document.querySelector('body').style.background = '#D9D9D9'
+            document.querySelector('body').style.transition = '3.5s'
           
         }
-    } else if(tipo === 'valor') {
-     document.getElementById('resultado').value += valorr
+
+        if (valor === '+' || valor === '-' || valor === '+' || valor === '*' || valor === '/' || valor === '.') {
+            document.getElementById('resultado').value += valor
+        }
+
+        if (valor === '=') {
+            var valor_campo = document.getElementById('resultado').value
+            document.getElementById('resultado').value = (eval(valor_campo))
+
+            document.querySelector('body').style.background = '#4e91df'
+            document.querySelector('body').style.transition = '3.5s'
+
+        }
+    } else if (tipo === 'valor') {
+        document.getElementById('resultado').value += valor
     }
 }
 
