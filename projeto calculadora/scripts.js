@@ -26,3 +26,13 @@ function calcular(tipo, valor) {
     }
 }
 
+
+function dia() {
+    document.querySelector('body').style.background = 'white'
+    document.querySelector('body').style.transition = '2s'
+}
+
+function noite() {
+    document.querySelector('body').style.background = 'black'
+    document.querySelector('body').style.transition = '2s'
+}
