@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+  background-color: black;
+  max-width: 100%;
+  min-width: auto;
+  height: auto;
+ 
+
+}
+
+#fundo {
+  width: 100%;
+  min-width: 800px;
+  height: 925px;
+  position: relative;
+}
+
+#logo {
+  width: 181px;
+  height: 60px;
+  position: absolute;
+  top: 17px;
+  left: 30px;
+
+}
+
+nav {
+  width: 450px;
+  height: 640px;
+  border-radius: 4px;
+  background-color: #000001ce;
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+}
+
+#acesso {
+  width: 320px;
+  height: 550px;
+  background-color: #00000100;
+  display: flex;
+  
+  padding: 65px;
+  flex-direction: column;
+
+}
+
+h1 {
+  color: white;
+  font-size: 2.0rem;
+  margin: 0 0 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+
+.cadastro {
+  color: white;
+}
+
+.arealogin {
+  width: auto;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #333333;
+  text-indent: 20px;
+  font-size: 1rem;
+}
+
+#bnt {
+  background-color: #E50914;
+  border: transparent;
+  color: white;
+  padding: 11px;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1.0rem;
+}
+
+
+label {
+  display: flex;
+  margin-top: 15px;
+  color: rgba(194, 194, 194, 0.884);
+}
+
+#check {
+  width: 15px;
+  height: 15px;
+}
+
+span {
+  font-size: 0.7rem;
+  display: block;
+  text-indent: 3px;
+
+}
+
+span.pdj {
+  display: block;
+  font-size: 0.7rem;
+}
+
+.cadastro{
+  font-weight: 500;
+}
+
+.assinar {
+  margin-top: 80px;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+
+.saibaMais {
+  font-size: 0.7rem;
+  
+}
+
+a.saibaMais{
+   color: #004BEB;
+}
+
+p {
+  color: rgb(141, 141, 141);
+}
+
+.pdj {
+  margin-left: 100px;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 110px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 0px;
+  color: rgb(141, 141, 141);
+  display: flex;
+  flex-direction: column;
+}
+.fone{
+  text-indent: 85px;
+  margin-top: 25px;
+  font-size: 1.0rem;
+  font-weight: 100;
+}
+.ulmenu{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.amenu{
+  color: rgb(141, 141, 141);
+  font-size: 0.7rem;
+}

@@ -1,0 +1,128 @@
+
+
+@media (max-width: 668px){
+*{
+   background-color: rgb(0, 0, 0);
+}
+
+
+ #logo{
+   margin-top: 20px;
+   z-index: 1;
+
+
+ }
+
+ body{
+   
+ }
+
+
+ nav{
+  width: 100%;
+  height:auto;
+
+  position: relative;
+ background-color: rgb(0, 0, 0);
+
+ }
+
+ h1{
+   margin-top: 60px;
+ }
+
+
+ #acesso {
+   margin-top: -30px;
+   width: auto;
+ 
+ 
+ }
+
+ label{
+   display: flex;
+   justify-content: space-around;
+  
+ }
+
+ span{
+   margin-left: -20px;
+ }
+
+ .cadastro{
+   font-weight: 600;
+ }
+
+ .assinar{
+   margin-top: 50px;
+ }
+
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+   nav{
+   margin-top: 100px;
+  
+   }
+}
+
+
+
+
+@media (max-width: 800px){
+   body{
+      position: relative;
+   }
+
+   footer {
+      display: none;
+   }
+   
+
+}
+
+
+
+
+
+@media (max-width: 800px)
+{
+   #fundo {
+      display: none;
+      
+    }
+
+    body{
+      background-image: url(img/fala-universidades-netflix-3.jpg);
+      background-repeat: no-repeat;
+      background-position: right right;
+    }
+}
+
+
+@media (max-width: 1919px){
+
+
+body{
+ width: auto;
+ max-height: 980px;
+ min-height: 600px;
+ position: relative;
+ 
+}
+
+}
+
+
+@media (max-width: 2559px){
+body{
+   position: relative;
+}
+}
+
+
